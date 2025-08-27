@@ -30,6 +30,8 @@
         {
             lblTexto = new Label();
             btnAceptar = new Button();
+            pictureBox = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox).BeginInit();
             SuspendLayout();
             // 
             // lblTexto
@@ -44,22 +46,32 @@
             // 
             // btnAceptar
             // 
-            btnAceptar.Location = new Point(85, 71);
+            btnAceptar.Location = new Point(42, 48);
             btnAceptar.Name = "btnAceptar";
             btnAceptar.Size = new Size(75, 23);
             btnAceptar.TabIndex = 1;
             btnAceptar.Text = "Aceptar";
             btnAceptar.UseVisualStyleBackColor = true;
             // 
+            // pictureBox
+            // 
+            pictureBox.Location = new Point(123, 30);
+            pictureBox.Name = "pictureBox";
+            pictureBox.Size = new Size(100, 50);
+            pictureBox.TabIndex = 2;
+            pictureBox.TabStop = false;
+            // 
             // GitHub
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(257, 149);
+            Controls.Add(pictureBox);
             Controls.Add(btnAceptar);
             Controls.Add(lblTexto);
             Name = "GitHub";
             Text = "GitHub";
+            ((System.ComponentModel.ISupportInitialize)pictureBox).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -68,5 +80,6 @@
 
         private Label lblTexto;
         private Button btnAceptar;
+        private PictureBox pictureBox;
     }
 }
