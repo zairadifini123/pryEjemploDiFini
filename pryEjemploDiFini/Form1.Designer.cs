@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             lblTexto = new Label();
+            btnAceptar = new Button();
             SuspendLayout();
             // 
             // lblTexto
@@ -41,11 +42,21 @@
             lblTexto.Text = "lblTexto";
             lblTexto.Click += label1_Click;
             // 
+            // btnAceptar
+            // 
+            btnAceptar.Location = new Point(108, 96);
+            btnAceptar.Name = "btnAceptar";
+            btnAceptar.Size = new Size(75, 23);
+            btnAceptar.TabIndex = 1;
+            btnAceptar.Text = "Aceptar";
+            btnAceptar.UseVisualStyleBackColor = true;
+            // 
             // GitHub
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(257, 149);
+            Controls.Add(btnAceptar);
             Controls.Add(lblTexto);
             Name = "GitHub";
             Text = "GitHub";
@@ -56,5 +67,6 @@
         #endregion
 
         private Label lblTexto;
+        private Button btnAceptar;
     }
 }
