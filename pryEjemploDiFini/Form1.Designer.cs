@@ -35,16 +35,16 @@
             // lblTexto
             // 
             lblTexto.AutoSize = true;
-            lblTexto.Location = new Point(103, 65);
+            lblTexto.Location = new Point(85, 30);
             lblTexto.Name = "lblTexto";
-            lblTexto.Size = new Size(48, 15);
+            lblTexto.Size = new Size(32, 15);
             lblTexto.TabIndex = 0;
-            lblTexto.Text = "lblTexto";
+            lblTexto.Text = "Hola";
             lblTexto.Click += label1_Click;
             // 
             // btnAceptar
             // 
-            btnAceptar.Location = new Point(108, 96);
+            btnAceptar.Location = new Point(85, 71);
             btnAceptar.Name = "btnAceptar";
             btnAceptar.Size = new Size(75, 23);
             btnAceptar.TabIndex = 1;
