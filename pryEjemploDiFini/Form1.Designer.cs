@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             label1 = new Label();
+            dateTimePicker1 = new DateTimePicker();
             SuspendLayout();
             // 
             // label1
@@ -41,11 +42,19 @@
             label1.Text = "label1";
             label1.Click += label1_Click;
             // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Location = new Point(119, 32);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(33, 23);
+            dateTimePicker1.TabIndex = 1;
+            // 
             // GitHub
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(257, 149);
+            Controls.Add(dateTimePicker1);
             Controls.Add(label1);
             Name = "GitHub";
             Text = "GitHub";
@@ -56,5 +65,6 @@
         #endregion
 
         private Label label1;
+        private DateTimePicker dateTimePicker1;
     }
 }
